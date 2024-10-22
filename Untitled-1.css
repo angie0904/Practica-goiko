@@ -1,0 +1,112 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0%;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+ 
+}
+#des{
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px;
+}
+div a{
+    width: 40px;
+  padding: 30px;
+ 
+    }
+div>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+
+}
+nav{
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.m1:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.m1{
+    border-radius: 8px;
+    border: 2px solid white;
+    padding: 10px;
+}
+.m2{
+    background-color: #EE2737;
+    border-radius: 8px;
+
+    padding: 10px;
+}
+.m2:hover{
+    background-color: #fcb900;
+    color: black;
+}
+.video1{
+    align-items: center; 
+
+}
+.slider-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+overflow: hidden;
+  }
+  
+  .slider-container img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+
+  /* .desp {
+    text-align: right;
+  }
+    button {
+        font-size: 2rem;
+        background-color: transparent;
+        border: none;
+    
+    }
+
+    .navbar {
+        display: flex;
+        align-items: end;
+        flex-flow: column;
+        min-height: 100vh;
+        min-width: 20%;
+        padding: 20px;
+        background-color: rgba(208, 19, 19, 0.932);
+        position: absolute;
+        top: 0;
+        left: 100%;
+        overflow-x: hidden;
+        z-index: 999;
+        transition: left 0.5s;
+    } */
+
+    #s2{
+        color: aliceblue;
+        background: url(img/imagenes/SMASH-1.png);
+    }
+    #s3{
+        color: aliceblue;
+    }
+    img{
+        width: 90px;
+        border: white;
+        border-radius: 1PX SOLID;
+    }
