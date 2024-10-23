@@ -2,6 +2,7 @@
     
     margin: 0;
     padding: 0%;
+    box-sizing: border-box;
 }
 body{
     background-color: black;
@@ -13,14 +14,17 @@ body{
    
  
 }
+
 #des{
     color: white;
     border: 2px solid white;
     border-radius: 8px;
     padding: 10px;
+    background-color: transparent;
 }
+
 div a{
-    width: 40px;
+    
   padding: 30px;
  
     }
@@ -94,16 +98,40 @@ nav{
     #s2{
         color: aliceblue;
         background: url(./img/imagenes/Carrusel_2x1.jpg);
-        height: 70vh;
+        height: 80vh;
         background-position: center;
         background-size: cover;
         border:1px solid white;
+        padding: 60px;
+    }
+    #s2>div{
+       align-items: end;
+       height: 100%;
+       display: flex;
+    }
+    
+    #s2>div>div{
+        display: flex;
+        flex-flow: column;
     }
     #s3{
         color: aliceblue;
+        height: 80vh;
+        padding: 20px;
+    
     }
-    img{
-        width: 90px;
-        border: white;
-        border-radius: 1PX SOLID;
+
+    #prod img{
+       
+        border: 1px solid white;
+        height: 50vh;
+        
+    }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+    #prod{
+        display: flex;
+        justify-content: space-around;
     }
