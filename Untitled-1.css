@@ -135,3 +135,29 @@ nav{
         display: flex;
         justify-content: space-around;
     }
+    #s4{
+        color: aliceblue;
+        height: 80vh;
+        padding: 20px;
+        align-items: center;
+    }
+    #s4>div{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 70px;
+    }
+    #s5{
+        color: aliceblue;
+        height: 80vh;
+        padding: 20px;
+        align-items: center;
+    }
+    #s6{
+        color: aliceblue;
+        height: 80vh;
+        padding: 20px;
+        align-items: center;
+    }
+    
+    
