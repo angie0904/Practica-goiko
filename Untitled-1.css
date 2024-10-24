@@ -28,13 +28,16 @@ div a{
   padding: 30px;
  
     }
-div>div{
+    svg.full__logo {
+        width: 20%;
+    }
+/* div>div{
     display: flex;
     justify-content: space-between;
     align-items: center;
   
 
-}
+} */
 nav{
     /* display: flex; */
     justify-content: space-between;
@@ -46,8 +49,10 @@ nav{
     color: black;
 }
 .m1{
+    display: inline-block;
     border-radius: 8px;
     border: 2px solid white;
+    margin-top: 15px;
     padding: 10px;
 }
 .m2{
@@ -137,7 +142,7 @@ nav{
     }
     #s4{
         color: aliceblue;
-        height: 80vh;
+        height: 40vh;
         padding: 20px;
         align-items: center;
     }
@@ -152,12 +157,24 @@ nav{
         height: 80vh;
         padding: 20px;
         align-items: center;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
     }
+    #s5>div{
+    display: flex;
+    align-items: center;
+    }
+    
     #s6{
         color: aliceblue;
         height: 80vh;
         padding: 20px;
         align-items: center;
+        display: flex;
+    }
+    #s6 video{
+        position: absolute;
     }
     
     
