@@ -216,7 +216,7 @@ nav{
 
     display: flex;
     justify-content:space-between;
-        align-items: center;
+        
         width: 40px;
        
     }
@@ -244,6 +244,22 @@ nav{
     color: black;
     }
   
+    #transi{
+        --y: 400px;
+    translate: none;
+    rotate: none;
+    scale: none;
+    transform-origin: 0% 100%;
+    transform: translate(0px, 0px);
+    
+}
+#transi img{
+    position: absolute;
+    width: 80px;
+    object-fit: cover;
+    translate: none;
+}
+    
     footer{
         background-color: white;
        
@@ -257,10 +273,14 @@ nav{
         -webkit-text-stroke: 1px black;
     }
     .seg a:hover p{
-        text-decoration: dashed;
+        text-decoration: underline;
     }
     footer a{
         color:black
+    }
+    #redes svg{
+        width: 30px;
+        
     }
     /* #s7 a{
   border: 2px solid white;
