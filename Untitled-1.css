@@ -28,7 +28,34 @@ p{
  
 }
 
-#des{
+#menuactivado{
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    background-color: #EE2737;
+}
+
+.prim button{ /* boton cierre menu */
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+}
+.prim svg{
+    color: white;
+}
+.me{
+    text-align:right;
+}
+
+.este button{
+    background-color: transparent;
+    border: none;
+}
+
+#des {
     color: white;
     border: 2px solid white;
     border-radius: 32px;
@@ -83,7 +110,6 @@ nav{
 
 }
 
-  
  
 
 
@@ -209,16 +235,18 @@ nav{
     }
     #s8{
         height: 80vh;
-        border-radius: 9px
-
+        border-radius: 9px;
+        margin: auto;
+    }
+    #s8>div{
+        margin: auto;
     }
     #s8>div>div{
 
-    display: flex;
-    justify-content:space-between;
-        
-        width: 40px;
+        display: flex;
+        justify-content: center;
        
+    
     }
     #s8 img{
       height: 25vh;
@@ -262,11 +290,14 @@ nav{
     
     footer{
         background-color: white;
+        
        
     }
     .dis{
         display: flex;
     justify-content: space-between;
+    padding: 30px;
+    
     }
     .pri a:hover h3{
         color:white;
@@ -276,8 +307,13 @@ nav{
         text-decoration: underline;
     }
     footer a{
-        color:black
+        color:black;
+        width: 40%;
     }
+    footer h3{
+        font-size: 2rem;
+    }
+   
     #redes svg{
         width: 30px;
         
