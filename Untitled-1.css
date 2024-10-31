@@ -27,6 +27,11 @@ p{
    
  
 }
+.goi{
+    display: flex;
+    flex-flow: column;
+    transform: rotate(0deg);
+}
 
 #menuactivado{
     position: absolute;
@@ -34,6 +39,10 @@ p{
     top: 0;
     width: 100%;
     background-color: #EE2737;
+}
+.pff{
+    display: flex;
+    justify-content: space-around;
 }
 
 .prim button{ /* boton cierre menu */
@@ -46,8 +55,12 @@ p{
 .prim svg{
     color: white;
 }
+
 .me{
-    text-align:right;
+    height: 50vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: end;
 }
 
 .este button{
