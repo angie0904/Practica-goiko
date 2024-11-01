@@ -42,6 +42,7 @@ p{
 }
 .pff{
     display: flex;
+    width:42%;
     justify-content: space-around;
 }
 
@@ -55,12 +56,29 @@ p{
 .prim svg{
     color: white;
 }
-
-.me{
-    height: 50vh;
+.sele{
     display: flex;
-    flex-flow: column;
     justify-content: end;
+}
+
+    #redesm svg{
+        width: 20px;
+      fill:red;
+        
+    }
+    #redesm a {
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+        border-width: 20px;
+    }
+    #redesm{
+        padding: 60px;
+        display: flex;
+    }
+.me{
+    height: 65vh;
+    padding: 24px;
+    font-size: 2rem;
 }
 
 .este button{
