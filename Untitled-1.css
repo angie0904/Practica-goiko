@@ -34,8 +34,8 @@ p{
 }
 
 #menuactivado{
-    position: absolute;
-    height: 100vh;
+    
+    height: 120vh;
     top: 0;
     width: 100%;
     background-color: #EE2737;
@@ -44,6 +44,10 @@ p{
     display: flex;
     width:42%;
     justify-content: space-around;
+}
+.ho a:hover{
+    color: #EE2737;
+    -webkit-text-stroke: 1px white;
 }
 
 .prim button{ /* boton cierre menu */
@@ -72,12 +76,12 @@ p{
         border-width: 20px;
     }
     #redesm{
-        padding: 60px;
-        display: flex;
+        padding: 98px;
+    
     }
 .me{
-    height: 65vh;
-    padding: 24px;
+    height: 68vh;
+    padding-left: 40px;
     font-size: 2rem;
 }
 
@@ -137,14 +141,27 @@ nav{
     color: black;
 }
 .video1{
-    align-items: center; 
+
+    width: 95%;
+   
+    height: 110vh;
+
 
 }
 
- 
+ .flecha{
 
+justify-content: space-between;
+width: 20px;
+fill: white;
+ }
+ .fle{
+    display: flex;
+    
+ }
 
-  /* .desp {
+/* 
+  .desplegable {
     text-align: right;
   }
     button {
@@ -152,28 +169,28 @@ nav{
         background-color: transparent;
         border: none;
     
-    }
+    } */
 
-    .navbar {
-        display: flex;
+    .menuactivado {
+        display: none;
         align-items: end;
         flex-flow: column;
         min-height: 100vh;
         min-width: 20%;
         padding: 20px;
         background-color: rgba(208, 19, 19, 0.932);
-        position: absolute;
-        top: 0;
+        
+        /* top: 0;
         left: 100%;
         overflow-x: hidden;
         z-index: 999;
-        transition: left 0.5s;
-    } */
+        transition: left 0.5s; */
+    }
 
     #s2{
         color: aliceblue;
         background: url(./img/imagenes/Carrusel_2x1.jpg);
-        height: 80vh;
+        height: 100vh;
         background-position: center;
         background-size: cover;
         border:1px solid white;
@@ -185,9 +202,12 @@ nav{
        display: flex;
        
     }
-    
+    #s2 h2{
+        font-size: 5rem;
+    }
     #s2>div>div{
         display: flex;
+    
         flex-flow: column;
     }
     #s3{
@@ -273,9 +293,10 @@ nav{
         color: white;
     }
     #s8{
-        height: 80vh;
+        height:60vh;
         border-radius: 9px;
         margin: auto;
+        padding: 20px;
     }
     #s8>div{
         margin: auto;
@@ -283,7 +304,10 @@ nav{
     #s8>div>div{
 
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+
        
     
     }
@@ -375,4 +399,31 @@ nav{
             margin: auto;
         }
         
+    }
+    @media (max-width: 768px){
+        #s8{
+            height: 115vh;
+        }
+        #s8 img{
+            width: 85%;
+        }
+    
+        #s8>div>div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column;
+        }
+        #footer{
+            height: 100vh;
+        }
+        .dis{
+            display: flex;
+            flex-flow: column;
+        }
+        #redesm{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+        }
     }
